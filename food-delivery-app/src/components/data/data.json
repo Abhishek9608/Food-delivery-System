@@ -1,0 +1,172 @@
+[
+  {
+    "Neil's Kitchen": [
+      {
+        "id": "1",
+        "img": "",
+        "name": "Chicken Lollipop",
+        "price": 123
+      },
+      {
+        "id": "2",
+        "img": "",
+        "name": "Kadai Paneen",
+        "price": 135
+      },
+      {
+        "id": "3",
+        "img": "",
+        "name": "Mixed Hakka Noodles",
+        "price": 169
+      },
+      {
+        "id": "4",
+        "img": "",
+        "name": "Mixed Hakka Noodles",
+        "price": 169
+      },
+      {
+        "id": "5",
+        "img": "",
+        "name": "Chicken Roll",
+        "price": 70
+      }
+    ]
+  },
+  {
+    "Adil Fast Food Corner": [
+      {
+        "id": "1",
+        "img": "",
+        "name": "Chicken Lollipop",
+        "price": 123
+      },
+      {
+        "id": "2",
+        "img": "",
+        "name": "Kadai Paneen",
+        "price": 135
+      },
+      {
+        "id": "3",
+        "img": "",
+        "name": "Mixed Hakka Noodles",
+        "price": 169
+      },
+      {
+        "id": "4",
+        "img": "",
+        "name": "Mixed Hakka Noodles",
+        "price": 169
+      },
+      {
+        "id": "5",
+        "img": "",
+        "name": "Chicken Roll",
+        "price": 70
+      }
+    ]
+  },
+  {
+    "Khushi & Vishal Food Store": [
+      {
+        "id": "1",
+        "img": "",
+        "name": "Chicken Lollipop",
+        "price": 123
+      },
+      {
+        "id": "2",
+        "img": "",
+        "name": "Kadai Paneen",
+        "price": 135
+      },
+      {
+        "id": "3",
+        "img": "",
+        "name": "Mixed Hakka Noodles",
+        "price": 169
+      },
+      {
+        "id": "4",
+        "img": "",
+        "name": "Mixed Hakka Noodles",
+        "price": 169
+      },
+      {
+        "id": "5",
+        "img": "",
+        "name": "Chicken Roll",
+        "price": 70
+      }
+    ]
+  },
+  {
+    "Punjabee Rasoi": [
+      {
+        "id": "1",
+        "img": "",
+        "name": "Chicken Lollipop",
+        "price": 123
+      },
+      {
+        "id": "2",
+        "img": "",
+        "name": "Kadai Paneen",
+        "price": 135
+      },
+      {
+        "id": "3",
+        "img": "",
+        "name": "Mixed Hakka Noodles",
+        "price": 169
+      },
+      {
+        "id": "4",
+        "img": "",
+        "name": "Mixed Hakka Noodles",
+        "price": 169
+      },
+      {
+        "id": "5",
+        "img": "",
+        "name": "Chicken Roll",
+        "price": 70
+      }
+    ]
+  },
+  {
+    "Tung Nam": [
+      {
+        "id": "1",
+        "img": "",
+        "name": "Chicken Lollipop",
+        "price": 123
+      },
+      {
+        "id": "2",
+        "img": "",
+        "name": "Kadai Paneen",
+        "price": 135
+      },
+      {
+        "id": "3",
+        "img": "",
+        "name": "Mixed Hakka Noodles",
+        "price": 169
+      },
+      {
+        "id": "4",
+        "img": "",
+        "name": "Mixed Hakka Noodles",
+        "price": 169
+      },
+      {
+        "id": "5",
+        "img": "",
+        "name": "Chicken Roll",
+        "price": 70
+      }
+    ]
+  }
+]
