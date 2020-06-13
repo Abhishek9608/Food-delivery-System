@@ -6,17 +6,17 @@ import { addItem } from "../../redux/Action";
 class Products extends React.Component {
   render() {
     const { searchData, cartItem } = this.props;
-    // console.log(cartItem);
+    // console.log(cartItem.length);
     // console.log(this.props);
 
     const card = searchData?.map((item, index) => {
       return (
-        <div className="col-4">
+        <div key={index} className="col-4">
           <Link to="/cart" onClick={() => cartItem(item)}>
-            <div class="card">
-              <img class="card-img-top" src={item.img} alt="img" />
-              <div class="card-body">
-                <h6 class="card-title display-5 ">{item.name}</h6>
+            <div className="card">
+              <img className="card-img-top" src={item.img} alt="img" />
+              <div className="card-body">
+                <h6 className="card-title display-5 ">{item.name}</h6>
                 <span>{item.price}</span>
               </div>
             </div>

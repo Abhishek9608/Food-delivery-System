@@ -22,20 +22,20 @@ class Banner extends React.Component {
             <div className="row align-items-center h-100 m-0">
               <div className="col-12 d-flex align-items-center flex-column ">
                 <h1 className=" text-white">Romato</h1>
-                <h1 class="display-5 mt-3  text-white ">Discover the best food & drinks in Kolkata</h1>
+                <h1 className="display-5 mt-3  text-white ">Discover the best food & drinks in Kolkata</h1>
                 <div className="col-8 ">
-                  <div class="input-group mb-3">
+                  <div className="input-group mb-3">
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       placeholder="Recipient's username"
                       aria-label="Recipient's username"
                       aria-describedby="basic-addon2"
                       value={this.state.value}
                       onChange={(e) => this.setState({ value: e.target.value })}
                     />
-                    <div class="input-group-append">
-                      <Link to="/product" class="input-group-text" id="basic-addon2" onClick={() => searchItem(this.state.value)}>
+                    <div className="input-group-append">
+                      <Link to="/product" className="input-group-text" id="basic-addon2" onClick={() => searchItem(this.state.value)}>
                         @example.com
                       </Link>
                     </div>

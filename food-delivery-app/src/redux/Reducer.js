@@ -1,5 +1,6 @@
-import { SEARCH_ITEM, ADD_ITEM } from "./ActionTypes";
+import { SEARCH_ITEM, ADD_ITEM, COUNTER_ITEM } from "./ActionTypes";
 import data from "../components/data/data.json";
+// import { searchItem } from "./Action";
 
 const initState = {
   data: data[0],
@@ -7,7 +8,8 @@ const initState = {
   cartItem: [],
 };
 console.log(initState.data);
-console.log(initState.searchData);
+console.log(initState.cartItem.length);
+// console.log(initState.searchData);
 const reducer = (state = initState, { type, payload }) => {
   switch (type) {
     case SEARCH_ITEM:

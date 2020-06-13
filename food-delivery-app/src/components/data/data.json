@@ -11,7 +11,9 @@
         "id": "2",
         "img": "/Image/dal2.png",
         "name": "Kadai Paneen",
-        "price": 135
+        "price": 135,
+        "totalQuantity": 20,
+        "orderedQuantity": 0
       },
       {
         "id": "3",
