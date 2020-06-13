@@ -1,11 +1,15 @@
-import { SEARCH_ITEM, ADD_ITEM, COUNTER_ITEM } from "./ActionTypes";
+import { SEARCH_ITEM, ADD_ITEM, LOG_IN } from "./ActionTypes";
 import data from "../components/data/data.json";
-// import { searchItem } from "./Action";
 
 const initState = {
   data: data[0],
   searchData: [],
   cartItem: [],
+  isLogged: false,
+  user: {
+    username: "admin",
+    password: "admin",
+  },
 };
 console.log(initState.data);
 console.log(initState.cartItem.length);
@@ -22,7 +26,11 @@ const reducer = (state = initState, { type, payload }) => {
         ...state,
         cartItem: [...state.cartItem, payload],
       };
-
+    case LOG_IN:
+      return {
+        ...state,
+        isLogged: payload,
+      };
     default:
       return state;
   }
