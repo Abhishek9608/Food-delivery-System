@@ -21,13 +21,13 @@ class Navbar extends React.Component {
         </Link>
         <div className="collapse navbar-collapse justify-content-end " id="navbarNavAltMarkup">
           <div className="navbar-nav mr-5">
-            {isLogged ? (
-              <Link to="/login" className="nav-item nav-link active mx-3 ">
-                Login <span className="sr-only">(current)</span>
-              </Link>
-            ) : (
+            {isLogged === true ? (
               <Link to="#" className="nav-item nav-link active mx-3 " onClick={this.handleAuth}>
                 Logout <span className="sr-only">(current)</span>
+              </Link>
+            ) : (
+              <Link to="/login" className="nav-item nav-link active mx-3 ">
+                Login <span className="sr-only">(current)</span>
               </Link>
             )}
             <Link className="nav-item nav-link mx-3 " to="/">

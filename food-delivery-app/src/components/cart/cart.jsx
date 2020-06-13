@@ -9,21 +9,25 @@ class Cart extends React.Component {
       <>
         <div className="row m-0 align-items-center justify-content-center " style={{ minHeight: "100vh" }}>
           <div className="col-6 p-0">
-            {cartItem.map((item) => {
-              console.log(item);
-              return (
-                <div key={item.id} className="card mb-3  ">
-                  <img className="card-img-top" style={{ height: "100px" }} src={item.img} alt="img" />
-                  <div className="card-body">
-                    <h5 className="card-title">{item.title}</h5>
-                    <p className="card-text">
-                      <span>{item.price}</span>
-                    </p>
-                    <button className="btn btn-primary">Add to cart</button>
+            {cartItem.length !== 0 ? (
+              cartItem.map((item) => {
+                console.log(item);
+                return (
+                  <div key={item.id} className="card mb-3  ">
+                    <img className="card-img-top" style={{ height: "100px" }} src={item.img} alt="img" />
+                    <div className="card-body">
+                      <h5 className="card-title">{item.title}</h5>
+                      <p className="card-text">
+                        <span>{item.price}</span>
+                      </p>
+                      <button className="btn btn-primary">Add to cart</button>
+                    </div>
                   </div>
-                </div>
-              );
-            })}
+                );
+              })
+            ) : (
+              <div className="row"> cart is empty</div>
+            )}
           </div>
         </div>
       </>

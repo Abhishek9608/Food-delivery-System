@@ -2,6 +2,8 @@ import React from "react";
 import { connect } from "react-redux";
 import { searchItem } from "../../redux/Action";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 class Banner extends React.Component {
   constructor(props) {
@@ -36,7 +38,7 @@ class Banner extends React.Component {
                     />
                     <div className="input-group-append">
                       <Link to="/product" className="input-group-text" id="basic-addon2" onClick={() => searchItem(this.state.value)}>
-                        @example.com
+                        <FontAwesomeIcon icon={faSearch} />
                       </Link>
                     </div>
                   </div>

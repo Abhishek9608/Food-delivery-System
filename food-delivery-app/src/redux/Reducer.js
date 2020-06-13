@@ -27,6 +27,7 @@ const reducer = (state = initState, { type, payload }) => {
         cartItem: [...state.cartItem, payload],
       };
     case LOG_IN:
+      console.log(payload);
       return {
         ...state,
         isLogged: payload,
