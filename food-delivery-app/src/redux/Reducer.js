@@ -1,9 +1,10 @@
-import { SEARCH_ITEM } from "./ActionTypes";
+import { SEARCH_ITEM, ADD_ITEM } from "./ActionTypes";
 import data from "../components/data/data.json";
 
 const initState = {
   data: data[0],
   searchData: [],
+  cartItem: [],
 };
 console.log(initState.data);
 console.log(initState.searchData);
@@ -13,6 +14,11 @@ const reducer = (state = initState, { type, payload }) => {
       return {
         ...state,
         searchData: state.data[payload],
+      };
+    case ADD_ITEM:
+      return {
+        ...state,
+        cartItem: [...state.cartItem, payload],
       };
 
     default:

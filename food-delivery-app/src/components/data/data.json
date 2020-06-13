@@ -3,31 +3,31 @@
     "Neil's Kitchen": [
       {
         "id": "1",
-        "img": "",
+        "img": "/Image/dal1.png",
         "name": "Chicken Lollipop",
         "price": 123
       },
       {
         "id": "2",
-        "img": "",
+        "img": "/Image/dal2.png",
         "name": "Kadai Paneen",
         "price": 135
       },
       {
         "id": "3",
-        "img": "",
+        "img": "/Image/dal3.png",
         "name": "Mixed Hakka Noodles",
         "price": 169
       },
       {
         "id": "4",
-        "img": "",
+        "img": "/Image/dal2.png",
         "name": "Mixed Hakka Noodles",
         "price": 169
       },
       {
         "id": "5",
-        "img": "",
+        "img": "/Image/dal3.png",
         "name": "Chicken Roll",
         "price": 70
       }

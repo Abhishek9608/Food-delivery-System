@@ -1,20 +1,20 @@
 import React from "react";
 import { connect } from "react-redux";
-// import { searchItem } from "../../redux/Action";
-// import { searchItem } from "../../redux/Action";
 import { Link } from "react-router-dom";
+import { addItem } from "../../redux/Action";
 
 class Products extends React.Component {
   render() {
-    const { searchData } = this.props;
+    const { searchData, cartItem } = this.props;
+    // console.log(cartItem);
+    // console.log(this.props);
 
-    // console.log(searchData[0].id);
-    const card = searchData.map((item, index) => {
+    const card = searchData?.map((item, index) => {
       return (
         <div className="col-4">
-          <Link to="/">
+          <Link to="/cart" onClick={() => cartItem(item)}>
             <div class="card">
-              <img class="card-img-top" src="https://placeimg.com/640/480/tech" alt="img" />
+              <img class="card-img-top" src={item.img} alt="img" />
               <div class="card-body">
                 <h6 class="card-title display-5 ">{item.name}</h6>
                 <span>{item.price}</span>
@@ -26,7 +26,7 @@ class Products extends React.Component {
     });
     return (
       <div className="container mt-5 ">
-        <div className="row  ">{card}</div>
+        <div className="row">{card}</div>
       </div>
     );
   }
@@ -35,6 +35,10 @@ const mapStateToProps = (state) => ({
   searchData: state.searchData,
 });
 
-export default connect(mapStateToProps, null)(Products);
+const mapDispatchToProps = (dispatch) => ({
+  cartItem: (payload) => dispatch(addItem(payload)),
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(Products);
 
 // export default Banner;
