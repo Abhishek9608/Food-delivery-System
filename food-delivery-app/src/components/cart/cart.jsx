@@ -26,7 +26,9 @@ class Cart extends React.Component {
                 );
               })
             ) : (
-              <div className="row"> cart is empty</div>
+              <div className="row">
+                <h1>Cart is empty</h1>
+              </div>
             )}
           </div>
         </div>
