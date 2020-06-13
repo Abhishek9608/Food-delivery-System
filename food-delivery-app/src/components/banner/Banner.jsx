@@ -1,6 +1,7 @@
 import React from "react";
-// import { connect } from "react-redux";
+import { connect } from "react-redux";
 import { searchItem } from "../../redux/Action";
+import { Link } from "react-router-dom";
 
 class Banner extends React.Component {
   constructor(props) {
@@ -11,7 +12,9 @@ class Banner extends React.Component {
   }
 
   render() {
-    // const { searchItem } = this.props;
+    const { searchItem } = this.props;
+
+    console.log(this.props);
     return (
       <>
         <div className="row m-0 ">
@@ -32,9 +35,9 @@ class Banner extends React.Component {
                       onChange={(e) => this.setState({ value: e.target.value })}
                     />
                     <div class="input-group-append">
-                      <span class="input-group-text" id="basic-addon2" onClick={() => searchItem(this.state.value)}>
+                      <Link to="/product" class="input-group-text" id="basic-addon2" onClick={() => searchItem(this.state.value)}>
                         @example.com
-                      </span>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -46,11 +49,14 @@ class Banner extends React.Component {
     );
   }
 }
-
-// const mapDispatchToProps = (dispatch) => ({
-//   searchItem: (payload) => dispatch(searchItem(payload)),
+// const mapStateToProps = (state) => ({
+//   searchData: state.searchData,
 // });
 
-// export default connect(mapDispatchToProps)(Banner);
+const mapDispatchToProps = (dispatch) => ({
+  searchItem: (payload) => dispatch(searchItem(payload)),
+});
 
-export default Banner;
+export default connect(null, mapDispatchToProps)(Banner);
+
+// export default Banner;
