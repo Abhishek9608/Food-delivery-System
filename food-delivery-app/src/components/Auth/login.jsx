@@ -1,6 +1,5 @@
 import React from "react";
 import { connect } from "react-redux";
-// import { Link } from "react-router-dom";
 import { logIn } from "../../redux/Action";
 
 class Login extends React.Component {
@@ -39,7 +38,7 @@ class Login extends React.Component {
   render() {
     return (
       <>
-        <div className="row justify-content-center mx-0 mt-5">
+        <div className="row justify-content-center mx-0 my-5">
           <form class="col-4 pb-5 mt-5 border border-dark" onSubmit={this.handleAuth}>
             <div className="form-group mt-5">
               <label htmlFor="formGroupExampleInput">UserName</label>

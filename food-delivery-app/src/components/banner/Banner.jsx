@@ -16,7 +16,6 @@ class Banner extends React.Component {
   render() {
     const { searchItem } = this.props;
 
-    console.log(this.props);
     return (
       <>
         <div className="row m-0 ">
@@ -30,7 +29,7 @@ class Banner extends React.Component {
                     <input
                       type="text"
                       className="form-control"
-                      placeholder="Recipient's username"
+                      placeholder="RESTAURANTS"
                       aria-label="Recipient's username"
                       aria-describedby="basic-addon2"
                       value={this.state.value}

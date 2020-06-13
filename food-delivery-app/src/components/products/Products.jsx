@@ -11,13 +11,13 @@ class Products extends React.Component {
 
     const card = searchData?.map((item, index) => {
       return (
-        <div key={index} className="col-4">
+        <div key={index} className="col-4 my-5">
           <Link to="/cart" onClick={() => cartItem(item)}>
             <div className="card">
               <img className="card-img-top" src={item.img} alt="img" />
               <div className="card-body">
                 <h6 className="card-title display-5 ">{item.name}</h6>
-                <span>{item.price}</span>
+                <span>Rs{item.price}</span>
               </div>
             </div>
           </Link>
