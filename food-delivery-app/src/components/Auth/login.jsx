@@ -28,7 +28,7 @@ class Login extends React.Component {
     if (username === this.state.username && password === this.state.password) {
       logIn(!isLogged);
       const location = {
-        pathname: "/",
+        pathname: "/cart",
         state: { fromDashboard: true },
       };
       history.push(location);

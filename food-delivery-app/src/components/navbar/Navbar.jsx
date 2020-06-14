@@ -11,7 +11,7 @@ class Navbar extends React.Component {
     logIn(!isLogged);
   };
   render() {
-    console.log(this.props);
+    // console.log(this.props);
     const { cartItem, isLogged } = this.props;
 
     return (

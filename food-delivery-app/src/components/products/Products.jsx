@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { addItem } from "../../redux/Action";
 
 class Products extends React.Component {
@@ -12,15 +12,18 @@ class Products extends React.Component {
     const card = searchData?.map((item, index) => {
       return (
         <div key={index} className="col-4 my-5">
-          <Link to="/cart" onClick={() => cartItem(item)}>
+          <div>
             <div className="card">
               <img className="card-img-top" src={item.img} alt="img" />
               <div className="card-body">
                 <h6 className="card-title display-5 ">{item.name}</h6>
                 <span>Rs{item.price}</span>
               </div>
+              <button className="btn btn-info" onClick={() => cartItem(item)}>
+                Add to cart
+              </button>
             </div>
-          </Link>
+          </div>
         </div>
       );
     });

@@ -9,8 +9,6 @@ import { connect } from "react-redux";
 class Routes extends React.Component {
   render() {
     const { isLogged } = this.props;
-    console.log(this.props);
-    // const {}
     return (
       <Switch>
         <Route path="/" exact component={Home} />
