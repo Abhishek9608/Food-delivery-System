@@ -7,7 +7,7 @@ This app is made using Bootstrap,react.js and redux
 2. It will go to the Listing page where you can add some items.
 3. it goes to the cart if you are logedin with (userName:admin, password:admin)
 4. there you can remove the items from the cart and you will get the total price.
-
+```
 
 
 ## Tech
