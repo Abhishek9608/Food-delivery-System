@@ -15,7 +15,7 @@ This app is made using Bootstrap,react.js and redux
 Javascript
 HTML - CSS styling
 ```
-   ![imgtag](https://raw.githubusercontent.com/Abhishek9608/AbhishekPortfolio/master/pic/food.png)
+   ![imgtag](https://raw.githubusercontent.com/Abhishek9608/Food-delivery-system/master/food-delivery-app/public/Image/hotel_banner.jpeg)
 
  
 
