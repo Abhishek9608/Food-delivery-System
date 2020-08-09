@@ -17,5 +17,8 @@ HTML - CSS styling
 ```
 
    <img src="./food-delivery-app/public/Image/hotel_banner.jpeg"/>
+   
+   ![img tag](https://github.com/Abhishek9608/Food-delivery-system/blob/master/food-delivery-app/public/Image/hotel_banner.jpeg?raw=true)
+
  
 
