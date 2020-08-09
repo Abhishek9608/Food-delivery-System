@@ -16,6 +16,6 @@ Javascript
 HTML - CSS styling
 ```
 
-   <img src="/food-delivery-app/public/Image/hotel_banner.jpeg"/>
+   <img src="./food-delivery-app/public/Image/hotel_banner.jpeg"/>
  
 
