@@ -1,5 +1,6 @@
 # Food-delivery-system
 This app is made using Bootstrap,react.js and redux
+You can start the App using npm start
 
 ## Features
 ```
@@ -10,12 +11,8 @@ This app is made using Bootstrap,react.js and redux
 ```
 
 
-## Tech
-```
-Javascript
-HTML - CSS styling
-```
-   ![imgtag](https://raw.githubusercontent.com/Abhishek9608/Food-delivery-system/master/food-delivery-app/public/Image/hotel_banner.jpeg)
+
+   ![imgtag](https://raw.githubusercontent.com/Abhishek9608/AbhishekPortfolio/master/pic/food.png)
 
  
 
