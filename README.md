@@ -16,9 +16,9 @@ Javascript
 HTML - CSS styling
 ```
 
-   <img src="./food-delivery-app/public/Image/hotel_banner.jpeg"/>
-   
-   ![img tag](https://github.com/Abhishek9608/Food-delivery-system/blob/master/food-delivery-app/public/Image/hotel_banner.jpeg?raw=true)
+   <img src="https://github.com/Abhishek9608/AbhishekPortfolio/blob/master/pic/food.png"/>
+   <img src="https://github.com/Abhishek9608/AbhishekPortfolio/blob/master/pic/Screenshot%20from%202020-05-08%2017-48-32.png" />
+   ![img tag](https://github.com/Abhishek9608/AbhishekPortfolio/blob/master/pic/food.png?raw=true)
 
  
 
