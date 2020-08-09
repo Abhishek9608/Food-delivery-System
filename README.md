@@ -1,4 +1,6 @@
 # Food-delivery-system
 This app is made using Bootstrap,react.js and redux
 
-  <img src="./pic/WhatsApp Image 2020-05-07 at 12.24.55 PM.jpeg" alt="" class="section_picture" />
+ 
+ 
+<blockquote class="imgur-embed-pub" lang="en" data-id="undefined"><a href="https://imgur.com/undefined">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
