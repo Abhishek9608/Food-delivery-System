@@ -1,13 +1,11 @@
 import React from "react";
 import { connect } from "react-redux";
-// import { Link } from "react-router-dom";
 import { addItem } from "../../redux/Action";
 
 class Products extends React.Component {
   render() {
     const { searchData, cartItem } = this.props;
-    // console.log(cartItem.length);
-    // console.log(this.props);
+    console.log(this.props);
 
     const card = searchData?.map((item, index) => {
       return (
@@ -43,5 +41,3 @@ const mapDispatchToProps = (dispatch) => ({
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Products);
-
-// export default Banner;

@@ -12,7 +12,7 @@ class Routes extends React.Component {
     return (
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/product" exact render={(props) => <Products push {...props} />} />
+        <Route path="/product" exact render={(props) => <Products {...props} />} />
         <Route path="/cart" exact render={(props) => (isLogged ? <Cart /> : <Redirect to={{ pathname: "/login" }} />)} />
         <Route path="/login" exact render={(props) => <Login {...props} />} />
       </Switch>

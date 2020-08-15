@@ -11,7 +11,6 @@ class Navbar extends React.Component {
     logIn(!isLogged);
   };
   render() {
-    // console.log(this.props);
     const { cartItem, isLogged } = this.props;
 
     return (
@@ -30,9 +29,6 @@ class Navbar extends React.Component {
                 Login <span className="sr-only">(current)</span>
               </Link>
             )}
-            <Link className="nav-item nav-link mx-3 " to="/">
-              Sign Up
-            </Link>
 
             <Link className="nav-item nav-link mx-3" to="/cart">
               <FontAwesomeIcon icon={faCartArrowDown} />

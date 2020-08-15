@@ -26,7 +26,7 @@ const initState = {
       price: 169,
     },
   ],
-  isLogged: true,
+  isLogged: false,
   user: {
     username: "admin",
     password: "admin",
@@ -35,7 +35,6 @@ const initState = {
 };
 console.log(initState.data);
 console.log(initState.cartItem.length);
-// console.log(initState.searchData);
 const reducer = (state = initState, { type, payload }) => {
   switch (type) {
     case SEARCH_ITEM:
