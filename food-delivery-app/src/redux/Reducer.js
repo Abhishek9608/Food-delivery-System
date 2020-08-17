@@ -4,28 +4,7 @@ import data from "../components/data/data.json";
 const initState = {
   data: data[0],
   searchData: [],
-  cartItem: [
-    {
-      id: "1",
-      img: "/Image/dal1.png",
-      name: "Chicken Lollipop",
-      price: 123,
-    },
-    {
-      id: "2",
-      img: "/Image/dal2.png",
-      name: "Kadai Paneen",
-      price: 135,
-      totalQuantity: 20,
-      orderedQuantity: 0,
-    },
-    {
-      id: "3",
-      img: "/Image/dal3.png",
-      name: "Mixed Hakka Noodles",
-      price: 169,
-    },
-  ],
+  cartItem: [],
   isLogged: false,
   user: {
     username: "admin",
